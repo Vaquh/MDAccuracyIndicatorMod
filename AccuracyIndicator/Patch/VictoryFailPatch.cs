@@ -24,7 +24,7 @@ internal static class VictoryFailPatch
             Object.Destroy(GameIndicator);
             GameIndicator = null;
 
-            if (!Save.Settings.ShowMeanDelay)
+            if (!Save.ShowMeanDelay)
             {
                 return;
             }
